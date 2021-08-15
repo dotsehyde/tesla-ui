@@ -131,7 +131,7 @@ function Hero() {
           </div>
           <div className="row g-0 arrow-button">
             <div className="col offset-0">
-              <button className="btn btn-link arrow-button" type="button">
+              <button href="#stats" className="btn btn-link arrow-button" type="button">
                 <i
                   className="icon ion-ios-arrow-down arrow-icon"
                   style={{ fontSize: "32px", color: "var(--bs-light)" }}
