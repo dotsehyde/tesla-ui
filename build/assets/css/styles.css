@@ -1,0 +1,245 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/hero-mobile.jpg") center / cover no-repeat,
+    transparent;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background: url("../../assets/img/hero.jpg") center / cover no-repeat,
+      transparent;
+  }
+}
+
+#navcol-1 {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
+}
+
+#title {
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+}
+
+#subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#hero-bottom {
+  color: #fff;
+  margin-top: 0px;
+}
+
+.p-top {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0px;
+}
+
+.reverse-btn {
+  width: 100%;
+  background: rgba(10, 88, 202, 0);
+  border-radius: 30px;
+  font-family: Montserrat, sans-serif;
+  border: 3px solid #fff;
+  border-right-color: rgb(255, 255, 255);
+}
+
+.arrow-button {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#hero-bottom div {
+  max-width: 700px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+.col-border {
+  border-left: 2px solid rgba(255, 255, 255, 0.16);
+}
+
+#stats {
+  text-align: center;
+}
+
+.video-box {
+  width: 90%;
+  height: 400px;
+}
+
+@media (min-width: 992px) {
+  .video-box {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 300px) {
+  #stats-table {
+    color: #ffffff;
+    width: 90%;
+    margin: 0px auto;
+    font-size: 16px;
+    margin-bottom: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  #stats-table {
+    color: #ffffff;
+    width: 600px;
+    margin: 0px auto;
+    font-size: 16px;
+    margin-bottom: 250px;
+  }
+}
+
+#stats th {
+  text-align: left;
+}
+
+#fig-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#aero figcaption {
+  color: #fff;
+}
+
+.cell-right {
+  color: #ffffff;
+  text-align: right;
+  padding-right: 0px;
+}
+
+.cell-left {
+  color: #ffffff;
+  text-align: left;
+  padding-left: 0px;
+}
+
+#interior figcaption {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+}
+
+#interior figure {
+  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  #interior figure {
+    max-width: 70%;
+  }
+}
+
+#interior {
+  width: 100%;
+  height: 60vh;
+}
+
+@media (min-width: 768px) {
+  #interior {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+#aero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/back.jpg") center / cover no-repeat;
+}
+
+#topview {
+  width: 100%;
+  height: 120vh;
+  background: url("../../assets/img/top.jpg") center / cover no-repeat;
+}
+
+#topview h3 {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+}
+
+#topview p {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat, sans-serif;
+}
+
+#footer-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#footer-btn {
+  background-color: transparent;
+  text-align: center;
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+.reverse-btn:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid #fff;
+}
+
+#logo {
+  background: url("../../assets/img/logo.svg") center / contain no-repeat;
+  width: 100px;
+  height: 40px;
+}
+
+#aero h3 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+#aero p {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+}
+
+.arrow-button:hover {
+  border: none;
+}
+
+.arrow-button:focus {
+  border: none;
+}
+
+#vertical-line {
+  width: 1px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.51);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: -80px;
+}
+
+#hero-bottom p {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
